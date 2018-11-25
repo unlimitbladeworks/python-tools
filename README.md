@@ -2,7 +2,6 @@
 ## python3日常小工具仓库
 本项目记录平时学习到的小脚本，无论是从安全方面，还是从工具的使用方面上...
 
-hack
 
 Environment(环境)
 ---
@@ -14,6 +13,7 @@ Environment(环境)
 python-tools(:smiling_imp:)
 
     |--hack  (安全方面的小工具脚本)
+        |-- zip_hack.py  (命令行读取字典和zip,破解密码)
 
 
 

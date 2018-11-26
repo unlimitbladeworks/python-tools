@@ -16,7 +16,7 @@ python-tools(:smiling_imp:)
         |-- zip_hack.py  (命令行读取字典和zip,破解密码)      
         
         
-zip_hack.py    ![点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659077&idx=1&sn=232d05d83a95d9a8e1a2827d1c11934f&chksm=8c97d1fcbbe058ea9442195b4b7c500dc26670b31bde1690202076de523897f4cad00986b412&token=490358700&lang=zh_CN#rd)
+zip_hack.py   [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659077&idx=1&sn=232d05d83a95d9a8e1a2827d1c11934f&chksm=8c97d1fcbbe058ea9442195b4b7c500dc26670b31bde1690202076de523897f4cad00986b412&token=490358700&lang=zh_CN#rd)
          
 
 

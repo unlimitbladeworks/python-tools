@@ -13,8 +13,10 @@ Environment(环境)
 python-tools(:smiling_imp:)
 
     |--hack  (安全方面的小工具脚本)
-        |-- zip_hack.py  (命令行读取字典和zip,破解密码)
-
+        |-- zip
+            |-- zip_hack.py  (命令行读取字典和zip,破解密码)
+        |-- whyb (Where have you been?的缩写)
+            |-- xxx.py       (读取windows注册表,获取笔记本曾经连接的wifi网关的mac地址查询出你去过哪！)
 
 
 

@@ -7,7 +7,7 @@
 
 @time: 2018/11/23 22:13
 
-@desc:
+@desc: 读取txt文档，进行多线程跑字典方式进行爆破
 
 """
 import optparse

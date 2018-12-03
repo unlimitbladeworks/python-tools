@@ -19,7 +19,10 @@ python-tools(:smiling_imp:)
             |-- xxx.py       (读取windows注册表,获取笔记本曾经连接的wifi网关的mac地址查询出你去过哪！)
 
 
-
+各种代码对应的文章
+---
+zip_hack.py  -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659077&idx=1&sn=232d05d83a95d9a8e1a2827d1c11934f&chksm=8c97d1fcbbe058ea9442195b4b7c500dc26670b31bde1690202076de523897f4cad00986b412&token=490358700&lang=zh_CN#rd)
+         
 
 <br/>
 初学者有学python的可以关注公众号哟！

@@ -16,7 +16,8 @@ python-tools(:smiling_imp:)
         |-- zip
             |-- zip_hack.py  (命令行读取字典和zip,破解密码)
         |-- whyb (Where have you been?的缩写)
-            |-- xxx.py       (读取windows注册表,获取笔记本曾经连接的wifi网关的mac地址查询出你去过哪！ modify by 20181208 此模块作废,没找到中国开源数据库有mac的信息，若有人提供后续继续更新...)
+            |-- xxx.py       (读取windows注册表,获取笔记本曾经连接的wifi网关的mac地址查询出你去过哪！
+                              modify by 20181208 此模块作废,没找到中国开源数据库有mac的信息，若有人提供后续继续更新...)
         |-- meta
             |-- meta_picture.py (命令行执行,读取照片元数据,获取有用信息)
 

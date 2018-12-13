@@ -7,6 +7,7 @@
 @time: 2018年12月08日21:32:49
 
 @desc: 读取图片,解析其中的元数据小脚本
+       在线GPS定位网站:http://www.gpsspg.com/maps.htm
 
 """
 import os
@@ -39,7 +40,9 @@ class MetaPicture(object):
             GPSDate = picture_info['EXIF DateTimeOriginal']  # 拍摄时间
             if GPSLatitude and GPSLongitude and GPSDate:
                 print(f'纬度:{GPSLatitudeRef}{GPSLatitude}\n精度:{GPSLongitudeRef}{GPSLongitude}\n拍摄时间:{GPSDate}\n')
-                self.deal_data_format(GPSLatitude)
+                latitude = self.deal_data_format(GPSLatitude)
+                longitude = self.deal_data_format(GPSLongitude)
+                print(f'处理后的经纬度:【{GPSLatitudeRef}{latitude},{GPSLongitudeRef}{longitude}】')
         else:
             print('请检查提取的图片是否为原图,若为原图,则说明无相关元数据！')
 
@@ -49,10 +52,11 @@ class MetaPicture(object):
         data_list = [data.strip() for data in data_list_tmp]
         data_tmp = data_list[-1].split('/')
         data_list[-1] = str(int(data_tmp[0]) / int(data_tmp[1]))
-        # 将列表中元素进行拼接
-
-        data_str = ''.join(data_list)  # .replace(',', '')
-        print(data_str)
+        # 为了适配gps定位网站的规格输出,将列表做成度分时的状态
+        data_list.insert(1,'°')
+        data_list.insert(3,'′′')
+        data_str = ''.join(data_list)
+        return data_str
 
 
 def main():

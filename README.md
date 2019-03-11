@@ -20,6 +20,9 @@ python-tools(:smiling_imp:)
                               modify by 20181208 此模块作废,没找到中国开源数据库有mac的信息，若有人提供后续继续更新...)
         |-- meta
             |-- meta_picture.py (命令行执行,读取照片元数据,获取有用信息)
+            
+    |--spider   (爬虫方面的小脚本)
+        |-- python32.py     (python小课堂初始原生爬虫源代码)
 
 各种代码对应的文章
 ---
@@ -27,6 +30,7 @@ zip_hack.py  -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=M
 
 meta_picture.py  -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659112&idx=1&sn=93c28fc18e1af2c84666fbf9b9a01218&chksm=8c97d1d1bbe058c7b00d4a7065507617caeea02ffc640c2d0318914a008432bb37f3f47e1f64&token=1168554650&lang=zh_CN#rd)
 
+python32.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659374&idx=1&sn=d2252c900a04ccccc78d87e6aeac063c&chksm=8c97d2d7bbe05bc18561ca6e3ac3270bf425a970b1b0683ee53a96ddc01ae1f25be819b9c84c&token=1122100117&lang=zh_CN#rd)
 
 <br/>
 初学者有学python的可以关注公众号哟！

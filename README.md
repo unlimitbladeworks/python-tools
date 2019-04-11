@@ -34,8 +34,10 @@ meta_picture.py  -------------> [点我看文章](https://mp.weixin.qq.com/s?__b
 
 python32.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659374&idx=1&sn=d2252c900a04ccccc78d87e6aeac063c&chksm=8c97d2d7bbe05bc18561ca6e3ac3270bf425a970b1b0683ee53a96ddc01ae1f25be819b9c84c&token=1122100117&lang=zh_CN#rd)
 
-find_you.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659374&idx=1&sn=d2252c900a04ccccc78d87e6aeac063c&chksm=8c97d2d7bbe05bc18561ca6e3ac3270bf425a970b1b0683ee53a96ddc01ae1f25be819b9c84c&token=1122100117&lang=zh_CN#rd)
-<br/>
+find_you.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659560&idx=1&sn=420a1ba051f335ef09639dd613ac0158&chksm=8c97d391bbe05a87db3e6df957785efe9818260d0d1eaea53cdc30d875d0847672a1661aa61a&token=1588198533&lang=zh_CN#rd)
+
+<hr/>
+
 初学者有学python的可以关注公众号哟！
 
 ![migezatan](https://img-blog.csdnimg.cn/20181104164256754.png)

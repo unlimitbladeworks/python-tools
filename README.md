@@ -48,4 +48,4 @@ ppt2image.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz
 ![migezatan](https://img-blog.csdnimg.cn/20181104164256754.png)
 
 认可作者，请作者喝杯咖啡！~ (:smiling_imp:)
-![money](./picture/money.jpg)
+![money](https://github.com/unlimitbladeworks/python-tools/tree/master/picture/money.jpg)

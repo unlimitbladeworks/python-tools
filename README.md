@@ -36,8 +36,13 @@ python32.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=
 
 find_you.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659560&idx=1&sn=420a1ba051f335ef09639dd613ac0158&chksm=8c97d391bbe05a87db3e6df957785efe9818260d0d1eaea53cdc30d875d0847672a1661aa61a&token=1588198533&lang=zh_CN#rd)
 
+
+
 <hr/>
 
 初学者有学python的可以关注公众号哟！
 
 ![migezatan](https://img-blog.csdnimg.cn/20181104164256754.png)
+
+认可作者，请作者喝杯咖啡！~ (:smiling_imp:)
+![money](picture/money.jpg)

@@ -21,12 +21,13 @@ python-tools(:smiling_imp:)
             |-- xxx.py       (读取windows注册表,获取笔记本曾经连接的wifi网关的mac地址查询出你去过哪！
                               modify by 20181208 此模块作废,没找到中国开源数据库有mac的信息，若有人提供后续继续更新...)
         |-- meta
-            |-- meta_picture.py (命令行执行,读取照片元数据,获取有用信息)
+            |-- meta_picture.py  (命令行执行,读取照片元数据,获取有用信息)
         |-- 
-            |-- ppt2image.py  (ppt转png图片，附带长图合并)
+            |-- ppt2image.py     (ppt转png图片，附带长图合并)
             
     |--spider   (爬虫方面的小脚本)
-        |-- python32.py     (python小课堂初始原生爬虫源代码)
+        |-- python32.py          (python小课堂初始原生爬虫源代码)
+        |-- crawl_wymusic.py     (网易云音乐爬虫源代码)
 
 各种代码对应的文章
 ---
@@ -39,6 +40,8 @@ python32.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=
 find_you.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659560&idx=1&sn=420a1ba051f335ef09639dd613ac0158&chksm=8c97d391bbe05a87db3e6df957785efe9818260d0d1eaea53cdc30d875d0847672a1661aa61a&token=1588198533&lang=zh_CN#rd)
 
 ppt2image.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659643&idx=1&sn=f6b96f8a5604e949e99d3b1fee4f93a6&chksm=8c97d3c2bbe05ad45770dcbbbedff429b8c951986d84c8fd680116ff3dc35212049aff7b15a7&token=1281636927&lang=zh_CN#rd)
+
+crawl_wymusic.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659659&idx=1&sn=5be9661d06aa11a61af6e20efd07abfb&chksm=8c97d332bbe05a24f7cd81efe8738b5c5ba63e61cfb9a69ffce6008753fd531b0ddd45979dd0&token=71465630&lang=zh_CN#rd)
 
 
 <hr/>

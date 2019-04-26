@@ -22,8 +22,10 @@ python-tools(:smiling_imp:)
                               modify by 20181208 此模块作废,没找到中国开源数据库有mac的信息，若有人提供后续继续更新...)
         |-- meta
             |-- meta_picture.py  (命令行执行,读取照片元数据,获取有用信息)
-        |-- 
+        |-- ppt2picture
             |-- ppt2image.py     (ppt转png图片，附带长图合并)
+        |-- classify
+            |-- auto_classify.py (根据日期和文件后缀自动分类文件)
             
     |--spider   (爬虫方面的小脚本)
         |-- python32.py          (python小课堂初始原生爬虫源代码)
@@ -43,6 +45,7 @@ ppt2image.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz
 
 crawl_wymusic.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659659&idx=1&sn=5be9661d06aa11a61af6e20efd07abfb&chksm=8c97d332bbe05a24f7cd81efe8738b5c5ba63e61cfb9a69ffce6008753fd531b0ddd45979dd0&token=71465630&lang=zh_CN#rd)
 
+auto_classify.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659689&idx=1&sn=4eb5c6080adf01b344cfc478a0aa1ce2&chksm=8c97d310bbe05a06531137e4b97b53a13a8ddcbe083c6239d64b848b4f2cb68e8710a2a318b5&token=1009393911&lang=zh_CN#rd)
 
 <hr/>
 

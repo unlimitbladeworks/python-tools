@@ -3,7 +3,7 @@
 @Author  : Sy
 @File    : selenium_demo.py
 @Time    : 2019/5/3 16:57
-@desc    : 初始 selenium 天眼查
+@desc    : 初识 selenium demo
 """
 import os
 

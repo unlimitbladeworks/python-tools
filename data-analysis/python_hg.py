@@ -103,11 +103,10 @@ class HGFans:
 
     def run(self):
         """ 运行的函数 """
-        # self.fans_gender_rate()
-        # year = self.fans_age_analysis()
-        # self.draw_html(year)
-        # self.fans_location()
-        self.fans_intro()
+        self.fans_gender_rate()
+        self.fans_age_analysis()  # 年龄
+        self.fans_location()  # 地理
+        self.fans_intro()  # 简介词云
 
 
 if __name__ == '__main__':

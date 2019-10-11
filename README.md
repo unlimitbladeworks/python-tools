@@ -33,6 +33,10 @@ python-tools(:smiling_imp:)
     |--spider   (爬虫方面的小脚本)
         |-- python32.py          (python小课堂初始原生爬虫源代码)
         |-- crawl_wymusic.py     (网易云音乐爬虫源代码)
+        |-- bilibili_10.1
+            | -- ganbei.py       (国庆 70 周年,爬取 B 站视频历史弹幕)
+        |-- doutu
+            | -- doutula_spider.py  (斗图啦爬取)
 
 各种代码对应的文章
 ---

@@ -61,8 +61,6 @@ auto_classify.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?_
 
 excel_stock.py -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659709&idx=1&sn=657979494e70948c50c96c71cff02de2&chksm=8c97d304bbe05a12fa515241d9551d087c903a415af2e0b77edaa4805a09a8803173b03fe705&token=1304533427&lang=zh_CN#rd)
 
-excel_stock.py -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659709&idx=1&sn=657979494e70948c50c96c71cff02de2&chksm=8c97d304bbe05a12fa515241d9551d087c903a415af2e0b77edaa4805a09a8803173b03fe705&token=1304533427&lang=zh_CN#rd) 
-
 cut.py -------------> [点我看文章](https://mp.weixin.qq.com/s/VbfWyWR4oxCKTtguSJNmaQ) 
 
 <hr/>

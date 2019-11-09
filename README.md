@@ -12,8 +12,13 @@ Environment(环境)
 ---
 python-tools(:smiling_imp:)
 
-    |--automation/excel-stock
-        |-- excel_stock.py   (xlsxwriter + pandas 实现股票绘制)
+    |--automation
+        |-- excel-stock
+            |-- excel_stock.py   (xlsxwriter + pandas 实现股票绘制)
+        |-- cut-picture
+            |-- cut.py       (九宫格图片剪切)
+        |-- robot_pre
+            |-- audio_demo.py   (Python电脑录音demo)
         
     |--hack  (安全方面的小工具脚本)
         |-- findu
@@ -54,7 +59,12 @@ crawl_wymusic.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?_
 
 auto_classify.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659689&idx=1&sn=4eb5c6080adf01b344cfc478a0aa1ce2&chksm=8c97d310bbe05a06531137e4b97b53a13a8ddcbe083c6239d64b848b4f2cb68e8710a2a318b5&token=1009393911&lang=zh_CN#rd)
 
+excel_stock.py -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659709&idx=1&sn=657979494e70948c50c96c71cff02de2&chksm=8c97d304bbe05a12fa515241d9551d087c903a415af2e0b77edaa4805a09a8803173b03fe705&token=1304533427&lang=zh_CN#rd)
+
 excel_stock.py -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659709&idx=1&sn=657979494e70948c50c96c71cff02de2&chksm=8c97d304bbe05a12fa515241d9551d087c903a415af2e0b77edaa4805a09a8803173b03fe705&token=1304533427&lang=zh_CN#rd) 
+
+cut.py -------------> [点我看文章](https://mp.weixin.qq.com/s/VbfWyWR4oxCKTtguSJNmaQ) 
+
 <hr/>
 
 初学者有学python的可以关注公众号哟！

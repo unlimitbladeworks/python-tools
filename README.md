@@ -71,10 +71,10 @@ cut.py -------------> [点我看文章](https://mp.weixin.qq.com/s/VbfWyWR4oxCKT
 
 <hr/>
 
-初学者有学python的可以关注公众号哟！
+初学者有学python的可以关注公众号哟！(:smiling_imp:)
 
 ![migezatan](https://img-blog.csdnimg.cn/20181104164256754.png)
 
-认可作者，请作者喝杯咖啡！~ (:smiling_imp:)
 
-![money](picture/money1.jpg)
+
+

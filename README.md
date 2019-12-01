@@ -25,6 +25,8 @@ python-tools(:smiling_imp:)
             |-- cut.py       (九宫格图片剪切)
         |-- robot_pre
             |-- audio_demo.py   (Python电脑录音demo)
+        |-- selenium-demo
+            |-- selenium-demo.py (自动化网页 selenium 基本使用)
         
     |--hack  (安全方面的小工具脚本)
         |-- findu
@@ -57,6 +59,7 @@ automation:
 - excel_stock.py -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659709&idx=1&sn=657979494e70948c50c96c71cff02de2&chksm=8c97d304bbe05a12fa515241d9551d087c903a415af2e0b77edaa4805a09a8803173b03fe705&token=1304533427&lang=zh_CN#rd)
 - cut.py -------------> [点我看文章](https://mp.weixin.qq.com/s/VbfWyWR4oxCKTtguSJNmaQ) 
 - audio_demo.py -------------> [点我看文章](https://mp.weixin.qq.com/s/vydiMi8lFln9e0Qe0xA1_A)
+- selenium-demo.py -------------> [点我看文章](https://mp.weixin.qq.com/s/HI8PJiqkd63VAfmsi2RXFA)
 
 hack:
 

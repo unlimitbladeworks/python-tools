@@ -27,6 +27,8 @@ python-tools(:smiling_imp:)
             |-- audio_demo.py   (Python电脑录音demo)
         |-- selenium-demo
             |-- selenium-demo.py (自动化网页 selenium 基本使用)
+        |-- word-demo
+            |-- word_demo.py    (Python操作word基础)
         
     |--hack  (安全方面的小工具脚本)
         |-- findu
@@ -60,6 +62,8 @@ automation:
 - cut.py -------------> [点我看文章](https://mp.weixin.qq.com/s/VbfWyWR4oxCKTtguSJNmaQ) 
 - audio_demo.py -------------> [点我看文章](https://mp.weixin.qq.com/s/vydiMi8lFln9e0Qe0xA1_A)
 - selenium-demo.py -------------> [点我看文章](https://mp.weixin.qq.com/s/HI8PJiqkd63VAfmsi2RXFA)
+- todo word_demo.py -------------> [点我看文章]()
+
 
 hack:
 

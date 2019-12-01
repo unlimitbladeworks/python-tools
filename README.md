@@ -81,7 +81,7 @@ spider:
 
 <hr/>
 
-初学者有学python的可以关注公众号哟！(:smiling_imp:)
+可以来公众号找我玩哟！(:smiling_imp:)
 
 ![migezatan](https://img-blog.csdnimg.cn/20181104164256754.png)
 

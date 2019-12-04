@@ -62,7 +62,7 @@ automation:
 - cut.py -------------> [点我看文章](https://mp.weixin.qq.com/s/VbfWyWR4oxCKTtguSJNmaQ) 
 - audio_demo.py -------------> [点我看文章](https://mp.weixin.qq.com/s/vydiMi8lFln9e0Qe0xA1_A)
 - selenium-demo.py -------------> [点我看文章](https://mp.weixin.qq.com/s/HI8PJiqkd63VAfmsi2RXFA)
-- todo word_demo.py -------------> [点我看文章]()
+- todo word_demo.py -------------> [点我看文章](https://mp.weixin.qq.com/s/f8YFG48TZ2i1_RyvP9C6JQ)
 
 
 hack:

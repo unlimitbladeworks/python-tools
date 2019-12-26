@@ -50,6 +50,8 @@ python-tools(:smiling_imp:)
         |-- crawl_wymusic.py     (网易云音乐爬虫源代码)
         |-- bilibili_10.1
             | -- ganbei.py       (国庆 70 周年,爬取 B 站视频历史弹幕)
+        |-- bing_picture         
+            | -- crawl_bing.py   (必应首页，背景图下载)
         |-- doutu
             | -- doutula_spider.py  (斗图啦爬取)
 
@@ -80,7 +82,7 @@ spider:
 - crawl_wymusic.py   -------------> [点我看文章](https://mp.weixin.qq.com/s?__biz=MzAxMTM3MDk2Ng==&mid=2451659659&idx=1&sn=5be9661d06aa11a61af6e20efd07abfb&chksm=8c97d332bbe05a24f7cd81efe8738b5c5ba63e61cfb9a69ffce6008753fd531b0ddd45979dd0&token=71465630&lang=zh_CN#rd)
 - ganbei.py   -------------> [点我看文章](https://mp.weixin.qq.com/s/IOv_HF3dC87Orm09KKSFzA)
 - doutula_spider.py   -------------> [点我看文章](https://mp.weixin.qq.com/s/mRDw_NxbelbVPECVzBaOLQ)
-
+- crawl_bing.py -------------> [点我看文章](https://mp.weixin.qq.com/s/GiiHMvw651EJ-KnsLgZW2w)
 
 
 

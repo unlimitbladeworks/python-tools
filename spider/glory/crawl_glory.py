@@ -6,11 +6,6 @@
 @desc    : PySpider 爬取王者荣耀官网数据
 """
 
-# !/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# Created on 2019-12-22 21:05:43
-# Project: glory
-
 from pyspider.libs.base_handler import *
 import re
 

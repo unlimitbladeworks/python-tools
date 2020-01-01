@@ -34,11 +34,11 @@ class Handler(BaseHandler):
         avatar = response.doc('.name > img').attr('data-original')  # 头像
         position = response.doc('.name-box > p').text()  # 英雄定位
 
-        recommand_stars_dict = {}  # 生存能力等星数
+        recommend_stars_dict = {}  # 生存能力等星数
         for dl in response.doc('.attr-list > dl').items():
             attr_name = dl('dt').text()  # 生存能力、攻击伤害、技能效果、上手难度
             stars = int(re.findall(r'star-(.*)', dl('dd')('span').attr('class'))[0])  # 正则匹配 star-number,获取 number
-            recommand_stars_dict[attr_name] = stars
+            recommend_stars_dict[attr_name] = stars
 
         hero_analysis = [item for item in response.doc('.otherinfo-article > p').items()][0].text()  # 英雄分析，文字版
 
@@ -54,7 +54,7 @@ class Handler(BaseHandler):
             "name": name,
             "avatar": avatar,
             "position": position,
-            "recommand_stars_dict": recommand_stars_dict,
+            "recommend_stars_dict": recommend_stars_dict,
             "hero_analysis": hero_analysis,
             "attr_details_data_dict": attr_details_data_dict
         }

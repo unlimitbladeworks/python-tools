@@ -28,19 +28,24 @@ class SendMail(object):
             self.smtp = smtp
         except:
             print('发邮件---->初始化失败!请检查用户名和密码是否正确!')
+            import traceback
+            traceback.print_exc()
 
     def send_mails(self, content):
         """ 发送邮件 """
         try:
             message = MIMEText(content, 'plain', 'utf-8')
-            message['From'] = Header("机器人小咪", 'utf-8')
+            # message['From'] = Header("机器人小咪", 'utf-8')#新浪不能用这种形式，自行放开
+            message['From'] = Header(self.mail_user)    # 新浪必须用邮箱
             message['To'] = Header("知乎热榜", 'utf-8')
             subject = '知乎热榜'
             message['Subject'] = Header(subject, 'utf-8')
             self.smtp.sendmail(self.mail_user, self.mail_receivers, message.as_string())
             print('发送邮件成功!')
-        except Exception as e:
-            print('发邮件---->失败!原因:', e)
+        except:
+            print('发邮件---->失败!')
+            import traceback
+            traceback.print_exc()
 
     def mail_close(self):
         """ 关闭邮箱资源 """

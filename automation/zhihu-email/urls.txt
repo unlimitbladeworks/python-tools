@@ -1,0 +1,2 @@
+https://www.zhihu.com/api/v3/feed/topstory/hot-lists/total
+https://www.zhihu.com/api/v3/feed/topstory/hot-lists/digital

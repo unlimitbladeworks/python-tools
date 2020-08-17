@@ -16,6 +16,14 @@ def find_file_path():
     return os.path.dirname(os.path.abspath(__file__))
 
 
+def read_urls():
+    """ 读取当前目录下 url """
+    txt_path = os.path.join(find_file_path(), 'urls.txt')
+    print(f'url文件路径：{txt_path}')
+    with open(txt_path, 'r', encoding='utf-8') as f:
+        return [line.strip().replace('\n', '') for line in f.readlines()]
+
+
 # 初始化配置函数
 def init_config():
     # 初始化全局变量的字典

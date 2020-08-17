@@ -7,13 +7,14 @@
 """
 
 import requests
-from config.init_config import init_config
+from config.init_config import init_config, read_urls
 import re
 from send_mails import SendMail
+import time
 
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) '
-                  'AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15'
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) '
+                  'Chrome/84.0.4147.125 Safari/537.36 '
 }
 
 
@@ -21,6 +22,7 @@ def crawl_hot_list():
     """ 读取热榜，发送邮件 """
     mail = SendMail()
     for url in read_urls():
+        print(f'url:{url}')
         hot_list = []
         # url中带*，直接跳过，可以理解为注解
         if '*' in url:
@@ -68,12 +70,6 @@ def sort_seed(hot):
     return number
 
 
-def read_urls():
-    """ 读取当前目录下 url """
-    with open('urls.txt', 'r', encoding='utf-8') as f:
-        return [line.strip().replace('\n', '') for line in f.readlines()]
-
-
 def deal_txt(result_list):
     """ 数据转为文本 """
     result_str_list = []
@@ -94,8 +90,12 @@ def deal_txt(result_list):
 
 
 def main():
+    begin = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
+    print(f"{begin}----脚本开始----")
     init_config()
     crawl_hot_list()  # 爬取数据
+    end = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
+    print(f"{end}----脚本结束----")
 
 
 main()

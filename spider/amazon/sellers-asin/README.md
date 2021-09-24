@@ -13,9 +13,23 @@ Environment(环境)
 ---
 
 - python3+
+- selenium（自行对应Google Chrome版本）
+- Google Chrome
 
 脚本讲解
 ---
-1、下载谷歌插件，asin
+1、下载谷歌插件，ASINFetcher
 
+[点击这里](https://chrome.google.com/webstore/detail/asinfetcher-amazon-asin-g/eiiaminhipheiklkloadaapojkpgmdfm?hl=en)
+
+2、点击下图
+
+![友情提示1](picture/asin-fetcher.png)
+
+![友情提示2](picture/all-sellers.png)
+
+
+3、重命名csv，为 1.csv
+
+4、执行脚本即可
 

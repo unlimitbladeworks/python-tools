@@ -8,15 +8,10 @@
 from selenium import webdriver
 import re
 import pandas as pd
-import datetime
 import random
 import time
-from tqdm import trange
 
-import queue
 import multiprocessing
-
-today = datetime.date.today()
 
 
 def get_time(f):
@@ -27,6 +22,7 @@ def get_time(f):
         res = f(*arg, **kwarg)
         e_time = time.time()
         print('耗时：{}秒'.format(e_time - s_time))
+        print('耗时：{}分钟'.format((e_time - s_time) / 60))
         return res
 
     return inner
@@ -56,7 +52,8 @@ class SpiderAsin:
         df = pd.DataFrame(asin_list)
         current_url = self.driver.current_url
         print(f'当前url：{current_url}')
-        df.to_csv(f'{today}-asin.csv', index=False, header=False, mode='a')
+        today = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        df.to_csv(f'asin-{today}.csv', index=False, header=False, mode='w')
 
         try:
             # 点击下一页
@@ -100,11 +97,11 @@ class SpiderAsin:
         try:
             SpiderAsin.write_file()
             urls_list = SpiderAsin.read_file()
-            pool = multiprocessing.Pool(processes=3)
+            pool = multiprocessing.Pool(processes=4)
             pool.map(self._run_task, urls_list)
             pool.close()
             pool.join()
-        except Exception:
+        except:
             import traceback
             print(traceback.print_exc())
 

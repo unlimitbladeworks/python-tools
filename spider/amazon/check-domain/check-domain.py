@@ -11,6 +11,9 @@ import pandas as pd
 
 
 class CheckDomain:
+    """
+    keepa 获取 bs 榜单，重命名为 bs.xlsx 放到脚本目录下即可
+    """
 
     @staticmethod
     def create_client(access_key_id: str, access_key_secret: str) -> Domain20180129Client:

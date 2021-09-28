@@ -8,10 +8,13 @@
 from selenium import webdriver
 import re
 import pandas as pd
+import datetime
 import random
 import time
 
 import multiprocessing
+
+today = datetime.date.today()
 
 
 def get_time(f):
@@ -52,8 +55,7 @@ class SpiderAsin:
         df = pd.DataFrame(asin_list)
         current_url = self.driver.current_url
         print(f'当前url：{current_url}')
-        today = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        df.to_csv(f'asin-{today}.csv', index=False, header=False, mode='w')
+        df.to_csv(f'{today}-asin.csv', index=False, header=False, mode='a')
 
         try:
             # 点击下一页
